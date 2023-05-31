@@ -1,0 +1,31 @@
+/******HEADER******/
+
+/* .a-size {
+    font-size: 0.8rem;
+    color: white;
+} */
+
+
+
+/******DEBUG******/
+
+/* .debug-header-check {
+    background-color: var(--bs-secondary-color);
+} */
+
+.debug-header {
+    background-color: #2C3E50;
+}
+
+.debug-first-section {
+    background-color: #1ABC9C;
+}
+
+.debug-box {
+    background-color: lightcoral;
+}
+
+.debug-box-in {
+    background-color: aquamarine;
+}
+
