@@ -1,31 +1,42 @@
 /******HEADER******/
 
-/* .a-size {
+.a-size {
     font-size: 0.8rem;
-    color: white;
-} */
+}
 
+.img-size {
+    height: 12.5rem;
+    width: 12.5rem;
+}
 
+.img-size-col {
+    width: 100%;
+    border-radius: .625rem;
+}
+
+.line-white {
+    height: 3px;
+    background-color: white;
+    width: 100%;
+}
+
+.line-black {
+    height: 3px;
+    background-color: black;
+    width: 100%;
+}
 
 /******DEBUG******/
-
-/* .debug-header-check {
-    background-color: var(--bs-secondary-color);
-} */
 
 .debug-header {
     background-color: #2C3E50;
 }
 
-.debug-first-section {
+.debug-section-first {
     background-color: #1ABC9C;
 }
 
-.debug-box {
-    background-color: lightcoral;
-}
-
-.debug-box-in {
-    background-color: aquamarine;
-}
+/* .debug-col {
+    background-color: rgb(14, 74, 74);
+} */
 
