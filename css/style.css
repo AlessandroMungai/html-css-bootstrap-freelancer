@@ -5,13 +5,14 @@
 }
 
 .img-size {
-    height: 12.5rem;
-    width: 12.5rem;
+    height: 18.75rem;
+    width: 18.75rem;
 }
 
 .img-size-col {
     width: 100%;
     border-radius: .625rem;
+    padding-bottom: 1.25rem;
 }
 
 .line-white {
