@@ -1,9 +1,5 @@
 /******HEADER******/
 
-/* .a-size {
-    font-size: 0.8rem;
-} */
-
 .img-size {
     height: 18.75rem;
     width: 18.75rem;
@@ -12,7 +8,7 @@
 .img-size-col {
     width: 100%;
     border-radius: .625rem;
-    padding-bottom: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .line-white {

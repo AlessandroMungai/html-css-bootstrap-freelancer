@@ -14,84 +14,44 @@
 
     <body class="debug">
 
-        <nav class="navbar navbar-expand-lg debug-header">
+        <header>
+            
+            <nav class="navbar navbar-expand-md debug-header">
 
-            <div class="container">
+                <div class="container">
 
-                <a class="navbar-brand text-light" href="#">
+                    <a class="navbar-brand text-light fw-bolder" href="#">
 
-                    START BOOTSTRAP
+                        START BOOTSTRAP
 
-                </a>
+                    </a>
+                    
+                    <button class="navbar-toggler" type="button text-light" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    
+                        <span class="navbar-toggler-icon text-light">
+
+                        </span>
                 
-                <button class="navbar-toggler" type="button text-light" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                
-                    <span class="navbar-toggler-icon text-light">
+                    </button>
 
-                    </span>
-              
-                </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    
+                        <div class="navbar-nav fw-bolder">
 
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                
-                    <div class="navbar-nav">
+                            <a class="nav-link active text-light" aria-current="page" href="#">PORTFOLIO</a>
+                            <a class="nav-link text-light" href="#">ABOUT</a>
+                            <a class="nav-link text-light" href="#">CONTACT</a>
 
-                        <a class="nav-link active text-light" aria-current="page" href="#">PORTFOLIO</a>
-                        <a class="nav-link text-light" href="#">ABOUT</a>
-                        <a class="nav-link text-light" href="#">CONTACT</a>
+                        </div>
 
                     </div>
 
                 </div>
 
-            </div>
+            </nav>
 
-        </nav>
+        </header>
 
-        <!-- <header class="debug-header">
-
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-4 p-2 text-center">
-
-                        <a class="text-decoration-none text-light" href="#">
-                            
-                            STARTING BOOTSTRAP
-
-                        </a>
-                        
-                    </div>
-
-                    <div class="col-4 p-2 ms-auto text-center">
-
-                        <a class="a-size text-decoration-none text-light px-2" href="#">
-                            
-                            PORTFOLIO
-                            
-                        </a>
-
-                        <a class="a-size text-decoration-none text-light px-2" href="#">
-                            
-                            ABOUT
-                            
-                        </a>
-
-                        <a class="a-size text-decoration-none text-light px-2" href="#">
-                            
-                            CONTACT
-                            
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </header>  -->
-        
         <main>
 
             <section class="section-first debug-section-first pt-4 pb-4">
@@ -128,13 +88,13 @@
 
                     <div class="row justify-content-center">
 
-                        <div class="col-4 text-center text-light">
+                        <div class="col-sm-6 col-md-6 col-lg-6 text-center text-light">
 
                             <div class="row align-items-center">
 
                                 <div class="col-5">
 
-                                    <div class="line-white text-light"> </div>
+                                    <div class="line-white text-light"></div>
 
                                 </div>
 
@@ -188,7 +148,7 @@
 
                     <div class="row justify-content-center">
 
-                        <div class="col-4 text-center text-light">
+                        <div class="ol-sm-6 col-md-6 col-lg-6 text-center text-light">
 
                             <div class="row align-items-center">
 
@@ -286,10 +246,10 @@
 
             </section>
 
-            <section class="third-section debug-section-first">
+            <section class="third-section debug-section-first pt-4 pb-4">
 
                 <div class="container text-center">
-
+                    
                     <h2 class="text-light pt-4">
 
                         ABOUT
@@ -298,7 +258,7 @@
 
                     <div class="row justify-content-center">
 
-                        <div class="col-4 text-center text-light">
+                        <div class="ol-sm-6 col-md-6 col-lg-6 text-center text-light">
 
                             <div class="row align-items-center">
 
@@ -328,32 +288,85 @@
 
                     </div>
 
+                    <div class="row">
+
+                        <div class="p-4 col-md-6 text-light">
+
+                            <p>
+
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat unde inventore modi nemo iure! Facilis quibusdam iusto ab deserunt officia asperiores laborum neque quam fugit, provident non maiores corporis! Voluptatibus nesciunt veniam fugiat quisquam consectetur. Earum voluptates ad ut. Distinctio.
+
+                            </p>
+
+                        </div>
+
+                        <div class="p-4 col-md-6 text-light">
+
+                            <p>
+
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat unde inventore modi nemo iure! Facilis quibusdam iusto ab deserunt officia asperiores laborum neque quam fugit, provident non maiores corporis! Voluptatibus nesciunt veniam fugiat quisquam consectetur. Earum voluptates ad ut. Distinctio.
+
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="button-download text-center">
+
+                        <button type="button" class="btn btn-outline-light">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-download pb-1" viewBox="0 0 16 16">
+                                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                              </svg>
+
+                            Download
+
+                        </button>
+
+                    </div>
+
                 </div>
 
-                <div class="row justify-content-center">
+            </section>
 
-                    <div class="col-6">
+            <section>
 
-                        <div class="row pt-2">
+                <div class="container">
 
-                            <div class="col-sm-12 col-lg-6 text-light">
+                    <h2 class="pt-4 text-center">
 
-                                <p>
+                        CONTACT ME
 
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit corrupti maxime architecto voluptate aliquid commodi debitis? Suscipit cupiditate ut eaque officia velit magni, consequuntur excepturi nam amet provident impedit ab natus porro nulla delectus voluptates at explicabo qui quas nesciunt?
+                    </h2>
+                    
+                    <div class="row justify-content-center">
 
-                                </p>
-                                
-                            </div>
-                          
-                            <div class="col-sm-12 col-lg-6 text-light">
+                        <div class="col-sm-6 col-md-6 col-lg-6 text-center text-light">
 
-                                <p>
+                            <div class="row align-items-center">
 
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ex, assumenda exercitationem quibusdam temporibus aperiam incidunt, dignissimos quia in sint dolores delectus sapiente facere beatae ullam hic recusandae animi enim corporis neque officiis tempore? Quo officia minus dolor repellendus ratione!
+                                <div class="col-5">
 
-                                </p>
-                                
+                                    <div class="line-black"> </div>
+
+                                </div>
+
+                                <div class="col-2 lh-1">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-star-fill text-black" viewBox="0 0 16 16">
+                                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                      </svg>
+
+                                </div>
+
+                                <div class="col-5">
+
+                                    <div class="line-black "></div>
+
+                                </div>
+
                             </div>
 
                         </div>
