@@ -37,3 +37,14 @@
     background-color: rgb(14, 74, 74);
 } */
 
+.style-button {
+    background-color: #1ABC9C;
+    margin-top: 1.25rem;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #6da99d;
+    color: white;
+}
+
