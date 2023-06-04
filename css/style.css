@@ -1,5 +1,11 @@
 /******HEADER******/
 
+.color-header {
+    background-color: #2C3E50;
+}
+
+/******MAIN******/
+
 .img-size {
     height: 18.75rem;
     width: 18.75rem;
@@ -23,11 +29,18 @@
     width: 100%;
 }
 
+.starting-bootstrap {
+    color: #1ABC9C;
+}
+
+.my-container {
+    max-width: 800px;
+}
 /******DEBUG******/
 
-.debug-header {
+/* .debug-header {
     background-color: #2C3E50;
-}
+} */
 
 .debug-section-first {
     background-color: #1ABC9C;
