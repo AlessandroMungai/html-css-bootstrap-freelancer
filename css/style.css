@@ -21,6 +21,8 @@
     margin-bottom: 1.25rem;
 }
 
+/******STAR STYLE******/
+
 .line-white {
     height: 3px;
     background-color: white;
@@ -33,12 +35,10 @@
     width: 100%;
 }
 
+/******END STAR STYLE******/
+
 .starting-bootstrap {
     color: #1ABC9C;
-}
-
-.my-container {
-    max-width: 800px;
 }
 
 .style-button {
@@ -51,6 +51,8 @@
     background-color: #6da99d;
     color: white;
 }
+
+/******FOOTER******/
 
 footer {
     background-color: #22303e;
