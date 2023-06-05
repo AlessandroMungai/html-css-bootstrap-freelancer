@@ -11,6 +11,10 @@
     width: 18.75rem;
 }
 
+.color-section-first {
+    background-color: #1ABC9C;
+}
+
 .img-size-col {
     width: 100%;
     border-radius: .625rem;
@@ -36,19 +40,6 @@
 .my-container {
     max-width: 800px;
 }
-/******DEBUG******/
-
-/* .debug-header {
-    background-color: #2C3E50;
-} */
-
-.debug-section-first {
-    background-color: #1ABC9C;
-}
-
-/* .debug-col {
-    background-color: rgb(14, 74, 74);
-} */
 
 .style-button {
     background-color: #1ABC9C;
@@ -60,4 +51,23 @@
     background-color: #6da99d;
     color: white;
 }
+
+footer {
+    background-color: #22303e;
+}
+
+/******DEBUG******/
+
+/* .debug-header {
+    background-color: #2C3E50;
+} */
+
+/* .debug-section-first {
+    background-color: #1ABC9C;
+} */
+
+/* .debug-col {
+    background-color: rgb(14, 74, 74);
+} */
+
 
